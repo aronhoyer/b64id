@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"./**/*.js\"",
-    "test": "mocha \"./**/*.test.js\""
+    "test": "node --test"
   },
   "keywords": [
     "id",
@@ -19,10 +19,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "chai": "^4.2.0",
     "eslint": "^6.2.2",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "mocha": "^6.2.0"
+    "eslint-plugin-import": "^2.18.2"
   }
 }
